@@ -1,8 +1,9 @@
+import { Hero } from "../../components/Hero";
 import { Container } from "./styles";
 export const Home = () => {
   return (
     <Container>
-      <h1>Home</h1>
+      <Hero />
     </Container>
   );
 };
