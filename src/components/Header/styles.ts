@@ -1,7 +1,6 @@
 import { styled } from "../../styles/config/stitches.config";
 
 export const Container = styled("header", {
-  border: "1px solid red",
   display: "flex",
   height: 88,
   jc: "center",
@@ -39,7 +38,6 @@ export const Item = styled("li", {
 
 export const Link = styled("a", {
   p: "$1 $2",
-  border: "1px solid red",
   cursor: "pointer",
 
   variants: {
